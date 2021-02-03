@@ -36,7 +36,6 @@ hr {
 
 i {
   font-size: 4em;
-  margin: 10px;
   color: #ffd369;
 }
 
@@ -58,12 +57,10 @@ h2 {
   padding-bottom: 30px;
 }
 
-/* LINKS */
-
 /* HEADER */
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)),
     url('img/hero-img.jpg');
   background-size: cover;
   background-position: center;
@@ -107,10 +104,6 @@ header {
 
 /* ABOUT */
 
-.about {
-  background-color: #222831;
-}
-
 .about div {
   padding: 0 10px;
   flex-wrap: wrap;
@@ -133,13 +126,19 @@ header {
 
 /* SKILLS */
 
-.skills {
-  background-color: #222831;
-}
-
 .skills div {
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.icon-item {
+  margin: 13px;
+  text-align: center;
+}
+
+.icon-item p {
+  color: #eee;
+  margin-top: 5px;
 }
 
 /* CONTACT */
