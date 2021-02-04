@@ -9,10 +9,10 @@
   <script src="https://kit.fontawesome.com/c24b717ce2.js" crossorigin="anonymous"></script>
 
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&display=swap');
-  </style>
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+    </style>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
   </style>
 
   <title>Kyle Farmer's Portfolio</title>
@@ -28,23 +28,23 @@
       </ul>
       </div>
     </nav>
-    <div class="hero-text-box">
-      <h1>Hello, I'm Kyle.</h1>
-      <h2>I'm a full stack web developer in Chicago.</h2>
+    <div class="hero-text-box fade-in">
+      <h1>Hello, I'm Kyle</h1>
+      <h2>a full stack web developer in Chicago.</h2>
   </header>
 
   <a id="about-link"></a>
   <section class="about">
     <h1 class="section-title">About</h1>
-    <div class="flex">
-      <p>Resourceful software engineer with an eye for design. Brings 10 years of experience in live music production; adept at interdisciplinary collaboration, especially when faced with challenges. Calm thinker under pressure with a strong work ethic and great attention to detail. Enjoys working with computers and humans.</p>
+    <div class="flex wrap-evenly">
+      <p>It all started when my 3rd grade teacher, Mrs. Barnes, selected me to be on the computer team and teach the rest of the students how to use the school’s new Macintosh computers. They were truly "magical" and I was hooked immediately. However, in 8th grade a different path presented itself when I got my first guitar. Fast forward to today; after a decade in the live music industry as an audio engineer and production manager, I’m returning to my original fascination. I bring 10 years of collaboration with diverse groups of people, improvising and never giving up&#8212 “the show must go on” rings surprisingly true. <br/><br/>In this new endeavor, I strive for a balance of technology and humanism in my approach. I keep the user in mind at all times and my best work is achieved when in the company of others.</p>
       <img src="img/profile-img.jpg" alt="profile"/>
     </div>
   </section>
   <hr>
   <section class="skills">
     <h1 class="section-title">Skills</h1>
-    <div class="flex">
+    <div class="flex wrap-evenly">
       <div class="icon-item">
         <i class="fab fa-js"></i>
         <p>JavaScript ES6</p>
@@ -75,21 +75,51 @@
   <section class="projects">
     <a id="projects-link"></a>
     <h1 class="section-title">Projects</h1>
+    <div class="flex wrap-evenly slide-from-bottom">
+      <div class="project-item">
+        <h2>GamePad</h2>
+        <img src="img/gamepad.gif" alt="gamepad demo"/>
+        <p>Old Games, New Friends! GamePad is a social vintage video game app where users connect with others through their appreciation for old games.
+        </p>
+        <h3>Tech:</h3>
+        <p>JavaScript, React, Redux, Ruby on Rails, RESTful APIs, Bootstrap, PostgreSQL, Thunk, JWT, bcrypt</p>
+
+        <div class="project-icons">
+          <a href="https://github.com/kylefarmer85/gamepad-react-frontend" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square"></i></a>
+          <a href="https://www.youtube.com/watch?v=uQLKLM_15yA" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube-square"></i></a>
+          <a href="https://game-pad.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>
+        </div>
+      </div>
+      
+      <div class="flex wrap-evenly">
+        <div class="project-item">
+          <h2>Flatnote</h2>
+          <img src="img/flatnote.gif" alt="flatnote demo"/>
+          <p>Don't get caught saying "Oh CRUD, I should've made a note!" Users can leave notes on stickies for themselves and never forget anything again.
+          </p>
+          <h3>Tech:</h3>
+          <p>JavaScript, React, Redux, Ruby on Rails, RESTful APIs, Semantic UI, PostgreSQL, Thunk, JWT, bcrypt</p>
+  
+          <div class="project-icons">
+            <a href="https://github.com/kylefarmer85/react-redux-flatnote" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square"></i></a>
+          </div>
+        </div>
+    </div>
   </section>
   <hr>
   <section class="contact">
     <a id="contact-link"></a>
     <h1 class="section-title">Contact</h1>
-    <div class="flex">
+    <div class="flex wrap-evenly">
       <a href="https://www.linkedin.com/in/kylefarmer85" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
       <a href="https://github.com/kylefarmer85" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
       <a href="mailto:kylefarmer85@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
       <a href="https://kylefarmer85.medium.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-medium-m"></i></a>
-      
-      
-      
     </div>
   </section>
+  <footer>
+    <p>© 2021 Kyle Farmer</p>
+  </footer>
   
 </body>
 </html>
