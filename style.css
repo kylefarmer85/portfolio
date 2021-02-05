@@ -65,22 +65,22 @@ h2 {
 header {
   background-image: linear-gradient(
       rgba(0, 0, 0, 1),
-      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.7)
     ),
     url('img/hero-img.jpg');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   height: 100vh;
 }
 
 .main-nav {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.85);
   position: fixed;
   padding: 8px 4%;
   right: 0;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   list-style: none;
   width: 100vw;
 }
@@ -192,6 +192,30 @@ header {
 .project-icons a i:hover,
 .project-icons a i:active {
   color: #eee;
+}
+
+.fa-js {
+  color: #f0db4f;
+}
+
+.fa-react {
+  color: #61dbfb;
+}
+
+.fa-gem {
+  color: #b02b2c;
+}
+
+.fa-bootstrap {
+  color: #553c7b;
+}
+
+.fa-html5 {
+  color: #e34f26;
+}
+
+.fa-css3 {
+  color: #264de4;
 }
 
 /* CONTACT */
