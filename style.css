@@ -63,7 +63,11 @@ h2 {
 /* HEADER */
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.1)
+    ),
     url('img/hero-img.jpg');
   background-size: cover;
   background-position: center;
@@ -73,17 +77,13 @@ header {
 
 .main-nav {
   background-color: #222831;
-  background: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0) 10%,
-    rgba(34, 40, 49, 1) 20%
-  );
+  opacity: 0.9;
   position: fixed;
   padding: 8px 4%;
   right: 0;
   justify-content: flex-end;
   list-style: none;
-  width: 60vw;
+  width: 100vw;
 }
 
 .main-nav li {
@@ -208,6 +208,7 @@ header {
 }
 
 /* FOOTER */
+
 footer {
   background-color: #ffd369;
   color: #222831;
