@@ -16,7 +16,7 @@ body {
 /* REUSABLE */
 
 section {
-  margin: 80px 0;
+  padding: 80px 0;
 }
 
 .flex {
@@ -63,7 +63,7 @@ h2 {
 /* HEADER */
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
     url('img/hero-img.jpg');
   background-size: cover;
   background-position: center;
@@ -72,9 +72,18 @@ header {
 }
 
 .main-nav {
+  background-color: #222831;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 10%,
+    rgba(34, 40, 49, 1) 20%
+  );
+  position: fixed;
+  padding: 8px 4%;
+  right: 0;
   justify-content: flex-end;
   list-style: none;
-  padding: 2%;
+  width: 60vw;
 }
 
 .main-nav li {
@@ -96,7 +105,7 @@ header {
 }
 
 .hero-text-box {
-  padding-left: 10%;
+  padding: 80px 10%;
 }
 
 .hero-text-box h1,
@@ -144,7 +153,7 @@ header {
   padding: 25px 25px;
   margin: 25px;
   box-shadow: 0px 5px #ffd369;
-  border-radius: 5%;
+  border-radius: 3%;
 }
 
 .project-item h2 {
