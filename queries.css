@@ -2,18 +2,17 @@
   body {
     font-size: 18px;
   }
+  header {
+    background-attachment: scroll;
+  }
   h1 {
-    font-size: 2.2em;
+    font-size: 2em;
   }
   h2 {
     font-size: 1.2em;
   }
-  header {
-    height: 700px;
-  }
-  .main-nav {
-    justify-content: center;
-    opacity: 1;
+  .hero-text-box {
+    padding: 70px 10%;
   }
   .skills i {
     font-size: 5em;
