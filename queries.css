@@ -16,7 +16,6 @@
   }
 }
 
-/* Allow fixed background img only on Chrome broswers */
 @media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
   header {
     background-attachment: fixed;

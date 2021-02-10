@@ -223,9 +223,15 @@ header {
   margin: 10px;
 }
 
+.contact a:link,
+.contact a:visited {
+  backface-visibility: hidden;
+  transition: all 0.2s;
+}
+
 .contact a:hover,
 .contact a:active {
-  transform: translateY(3px);
+  transform: translateY(4px);
 }
 
 /* FOOTER */
