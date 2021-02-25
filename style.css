@@ -48,10 +48,12 @@ h1 {
   color: #eee;
   font-size: 3em;
   font-family: 'Merriweather', 'Arial', 'sans-serif';
+  animation: moveInRight 1s ease-out;
 }
 
 h2 {
   font-size: 1.5em;
+  animation: moveInBottom 1.5s ease-out;
 }
 
 .section-title {
@@ -244,15 +246,34 @@ footer {
 
 /* ANIMATION */
 
-.fade-in {
-  animation: fadeIn ease 1.5s;
-}
-
-@keyframes fadeIn {
+@keyframes moveInRight {
   0% {
     opacity: 0;
+    transform: translateX(-5rem);
   }
+
+  75% {
+    opacity: 0.2;
+  }
+
   100% {
     opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(-2rem);
+  }
+
+  75% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 100;
+    transform: translate(0);
   }
 }
