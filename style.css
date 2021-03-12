@@ -77,15 +77,15 @@ header {
 }
 
 .main-nav {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.45);
   position: fixed;
-  padding: 8px 4%;
+  padding: 12px 4%;
   right: 0;
   justify-content: space-evenly;
   list-style: none;
   width: 100vw;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
 }
 
 .main-nav li {
