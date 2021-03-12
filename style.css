@@ -67,7 +67,7 @@ header {
   background-image: linear-gradient(
       rgba(0, 0, 0, 1),
       rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.7)
+      rgba(0, 0, 0, 1)
     ),
     url('img/flyingtoasters.gif');
   background-size: cover;
@@ -77,13 +77,15 @@ header {
 }
 
 .main-nav {
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.5);
   position: fixed;
   padding: 8px 4%;
   right: 0;
   justify-content: space-evenly;
   list-style: none;
   width: 100vw;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .main-nav li {
