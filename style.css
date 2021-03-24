@@ -131,8 +131,7 @@ header {
 }
 
 .about img {
-  height: 300px;
-  border-radius: 50%;
+  height: 50vh;
 }
 
 /* SKILLS */
